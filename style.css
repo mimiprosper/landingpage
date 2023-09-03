@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+/* header */
+
+header {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav .logo img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+nav a:hover {
+    border-bottom: 4px solid green;
+    color: black;
+    padding: 30px;
+}
+
+nav button {
+    padding: 10px 35px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+/* second section */
+
+.next-gen {
+    margin: 0 auto;
+    background: rgb(248, 242, 242);
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.next-gen .left {
+    width: 27%;
+}
+
+.next-gen .left h1 {
+    margin-bottom: 20px;
+}
+
+.next-gen .left p {
+    margin-bottom: 20px;
+}
+
+.next-gen .left button {
+    padding: 10px 35px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.next-gen .right {
+    margin-left: 250px;
+    margin-top: -80px;
+}
+
+.next-gen .right img {
+    width: 700px;
+}
+
+/* third section */
+.easybank {
+    padding: 80px;
+    background: gainsboro;
+}
+
+.easybank .choose {
+    background: gainsboro;
+    width: 50%;
+}
+
+.easybank .choose h3 {
+    margin-bottom: 25px;
+}
+
+.easybank .choose p {
+    margin-bottom: 70px;
+}
+
+.easybank .services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.easybank .services img {
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.easybank .services h4 {
+    margin-bottom: 15px;
+}
+
+.easybank .services p {
+    margin-bottom: 15px;
+}
+
+.article {
+    padding: 80px;
+    background: rgb(248, 242, 242);
+}
+
+.article .authors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.article .authors a {
+    text-decoration: none;
+    color: #000;
+}
+
+.article .authors a:hover {
+    color: green;
+}
+
+.article .authors p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article .authors img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: rgb(44, 44, 70);
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+footer .icon {
+    color: #fff;
+
+}
+
+footer .fa-twitter:hover {
+    color: green;
+}
+
+footer .fa-facebook-f:hover {
+    color: green;
+}
+
+footer .fa-instagram:hover {
+    color: green;
+}
+
+footer .fa-youtube:hover {
+    color: green;
+}
+
+.para p{
+    margin-bottom: 20px;
+}
+
+.para p:hover{
+    color: green;
+    cursor: pointer;
+}
+
+footer button {
+    padding: 10px 35px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-bottom: 50px;
+}
+
+.none {
+    color: rgb(44, 44, 70);
+}
